@@ -57,7 +57,7 @@ export class PaceCardComponent implements OnInit {
   }
 
   public paceToSpeed() {
-    console.log("paceToSpeed");
+    //console.log("paceToSpeed");
     var temp;
     var secs;
     var mins;
@@ -71,14 +71,14 @@ export class PaceCardComponent implements OnInit {
     } else {
       mins=0;
     }
-    console.log("mins="+mins+" secs="+secs);
+    //console.log("mins="+mins+" secs="+secs);
     temp=(mins*60)+secs;
     temp=(1/temp)*(60*60);
     this.speed=Math.round(temp * 100)/100;
   }
 
   public speedToPace() {
-    console.log("speedToPace");
+    //console.log("speedToPace");
     var temp = (1/this.speed)*60*60;
     this.mins=this.minsFromSecs(temp);
     this.secs=Math.round(this.remainingSecs(temp));

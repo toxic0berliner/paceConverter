@@ -1,5 +1,12 @@
-Minutes :<input id="mins" type="number" alt="minutes" [value]="mins" (change)="setMins($event)" placeholder="minutes"/>
-<br/>
-Seconds :<input id="secs" type="number" alt="seconds" [value]="secs" (change)="setSecs($event)" placeholder="seconds"/>
-<br/>
-Speed : <input id="speed" type="number" alt="speed" [value]="speed" (change)="setKmhs($event)" placeholder="km/h"/>
+<mat-card class="converter-card">
+  <mat-form-field class="pace-field">
+    <input matInput id="mins" type="number" alt="Minutes" [value]="mins" (change)="setMins($event)" placeholder="minutes"/>
+  </mat-form-field>
+  <mat-form-field class="pace-field">
+    <input matInput id="secs" type="number" alt="Seconds" [value]="secs" (change)="setSecs($event)" placeholder="seconds"/>
+  </mat-form-field>
+  <br/>
+  <mat-form-field class="speed-field">
+    <input matInput id="speed" type="number" alt="Speed" [value]="speed" (change)="setKmhs($event)" placeholder="speed (km/h)"/>
+  </mat-form-field>
+</mat-card>

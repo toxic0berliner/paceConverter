@@ -1,0 +1,11 @@
+.speed-field {
+  width:100%;
+}
+.pace-field {
+  width:50%;
+}
+
+.converter-card {
+  max-width:30em;
+  margin:auto;
+}
