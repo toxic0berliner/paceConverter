@@ -25,6 +25,29 @@ export class PaceCardComponent implements OnInit {
 
   public setSecs(event){
     this.secs=parseInt(event.target.value);
+
+    // if we have no minutes, set them to 0
+    if (!(this.mins)) {
+      this.mins=0;
+    }
+
+    // when inputing a high number of seconds, translate it to mins:secs
+    if (this.minsFromSecs(this.secs)>1) {
+      this.mins=this.minsFromSecs(this.secs);
+      this.secs=this.remainingSecs(this.secs);
+    }
+
+    // when increasing above 60 seconds, increase the minute and fall back to "0"
+    if (this.minsFromSecs(this.secs)==1) {
+      this.mins=this.mins+1;
+      this.secs=this.remainingSecs(this.secs);
+    }
+
+    // when decreasing below zero, try removing a minute and fall back to 59
+    if (this.secs < 0) {
+      this.mins=Math.max(this.mins-1,0);
+      this.secs=59;
+    }
     this.paceToSpeed();
   }
 
@@ -36,7 +59,20 @@ export class PaceCardComponent implements OnInit {
   public paceToSpeed() {
     console.log("paceToSpeed");
     var temp;
-    temp=(this.mins*60)+this.secs;
+    var secs;
+    var mins;
+    if( this.secs ) {
+      secs=this.secs;
+    } else {
+      secs=0;
+    }
+    if( this.mins ) {
+      mins=this.mins;
+    } else {
+      mins=0;
+    }
+    console.log("mins="+mins+" secs="+secs);
+    temp=(mins*60)+secs;
     temp=(1/temp)*(60*60);
     this.speed=Math.round(temp * 100)/100;
   }
