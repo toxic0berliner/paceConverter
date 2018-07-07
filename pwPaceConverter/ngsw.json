@@ -1,14 +1,14 @@
 {
   "configVersion": 1,
-  "index": "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html",
+  "index": "paceConverter/pwPaceConverter/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/favicon.ico",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html"
+        "paceConverter/pwPaceConverter/favicon.ico",
+        "paceConverter/pwPaceConverter/index.html"
       ],
       "patterns": []
     },
@@ -17,30 +17,30 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png",
-        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png"
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png",
+        "paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
-    "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html": "cbfb735a00143b10b69316d1eb022001dc26528c"
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
+    "paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613",
+    "paceConverter/pwPaceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
+    "paceConverter/pwPaceConverter/index.html": "cbfb735a00143b10b69316d1eb022001dc26528c"
   },
   "navigationUrls": [
     {
