@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "index": "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/favicon.ico",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png",
+        "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
+    "C:/Program Files/Git/paceConverter/pwPaceConverter/index.html": "da2e5099e38d3922ad8822fcbc00271c96c7351c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
