@@ -5,7 +5,7 @@ import { Component, OnInit, Input/*,OnChanges, SimpleChange*/ } from '@angular/c
   templateUrl: './pace-card.component.html',
   styleUrls: ['./pace-card.component.css']
 })
-export class PaceCardComponent implements OnInit,OnChanges {
+export class PaceCardComponent implements OnInit {
 
   @Input() mins: number;
   @Input() secs: number;
@@ -18,21 +18,6 @@ export class PaceCardComponent implements OnInit,OnChanges {
     this.unit="kmh";
   }
 
-  /*ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
-    console.log("titi");
-      let log: string[] = [];
-      for (let propName in changes) {
-        let changedProp = changes[propName];
-        let to = JSON.stringify(changedProp.currentValue);
-        if (changedProp.isFirstChange()) {
-          log.push(`Initial value of ${propName} set to ${to}`);
-        } else {
-          let from = JSON.stringify(changedProp.previousValue);
-          log.push(`${propName} changed from ${from} to ${to}`);
-        }
-      }
-      this.changeLog.push(log.join(', '));
-    }*/
   public setMins(event){
     this.mins=parseInt(event.target.value);
     this.paceToSpeed();
@@ -52,7 +37,7 @@ export class PaceCardComponent implements OnInit,OnChanges {
     console.log("paceToSpeed");
     var temp;
     temp=(this.mins*60)+this.secs;
-    temp=(1/temp)*(60*60));
+    temp=(1/temp)*(60*60);
     this.speed=Math.round(temp * 100)/100;
   }
 
@@ -71,17 +56,5 @@ export class PaceCardComponent implements OnInit,OnChanges {
     totalSecs=totalSecs-this.remainingSecs(totalSecs);
     return totalSecs/60;
   }
-
-  /*@Input() set mins(value: int) {
-    console.log("setting mins")
-    this._mins = value;
-    this._secs = value;
-    console.log("tata");
-  }
-
-  get mins(): string {
-    console.log("getting mins")
-    return this._mins;
-}*/
 
 }
