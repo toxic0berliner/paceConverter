@@ -4,7 +4,7 @@
   "theme_color": "#673ab7",
   "background_color": "#ffffff",
   "display": "standalone",
-  "Scope": "/paceConverter/pwPaceConverter/",
+  "Scope": "/paceConverter/",
   "start_url": "index.html",
   "icons": [
     {
