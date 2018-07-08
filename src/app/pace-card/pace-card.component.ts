@@ -20,10 +20,13 @@ export class PaceCardComponent implements OnInit {
 
   public setMinsEvent(event){
     this.setMins(parseInt(event.target.value));
-    document.getElementById("secs").focus();
-    //document.getElementById("secs").setSelectionRange(0, document.getElementById("secs").value.length)
-    //ugly hack to select all content after focusing the secs field :
-    setTimeout(function () { var temp=document.getElementById("secs") as HTMLInputElement; temp.select(); }, 10);
+    if (event.target.value > 1 ) {
+      document.getElementById("secs").focus();
+      //document.getElementById("secs").setSelectionRange(0, document.getElementById("secs").value.length)
+      //ugly hack to select all content after focusing the secs field :
+      setTimeout(function () { var temp=document.getElementById("secs") as HTMLInputElement; temp.select(); }, 10);
+    }
+
   }
 
   public setMins(m){
