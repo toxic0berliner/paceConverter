@@ -1,11 +1,11 @@
 {
   "name": "Pace Converter",
-  "short_name": "paceConverter",
+  "short_name": "paceConvert",
   "theme_color": "#673ab7",
   "background_color": "#ffffff",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/",
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "assets/images/icons/icon-72x72.png",
