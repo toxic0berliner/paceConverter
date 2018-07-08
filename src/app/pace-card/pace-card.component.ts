@@ -18,14 +18,21 @@ export class PaceCardComponent implements OnInit {
     this.unit="kmh";
   }
 
-  public setMins(event){
-    this.mins=parseInt(event.target.value);
+  public setMinsEvent(event){
+    this.setMins(parseInt(event.target.value));
+  }
+
+  public setMins(m){
+    this.mins=m;
     this.paceToSpeed();
   }
 
-  public setSecs(event){
-    this.secs=parseInt(event.target.value);
+  public setSecsEvent(event){
+    this.setSecs(parseInt(event.target.value));
+  }
 
+  public setSecs(s){
+    this.secs=s;
     // if we have no minutes, set them to 0
     if (!(this.mins)) {
       this.mins=0;
@@ -51,10 +58,15 @@ export class PaceCardComponent implements OnInit {
     this.paceToSpeed();
   }
 
-  public setKmhs(event){
-    this.speed=event.target.value;
+  public setSpeedEvent(event){
+    this.setSpeed(event.target.value);
+  }
+
+  public setSpeed(s){
+    this.speed=s;
     this.speedToPace();
   }
+
 
   public paceToSpeed() {
     //console.log("paceToSpeed");
@@ -91,6 +103,28 @@ export class PaceCardComponent implements OnInit {
   private minsFromSecs(totalSecs) {
     totalSecs=totalSecs-this.remainingSecs(totalSecs);
     return totalSecs/60;
+  }
+
+  public addSpeed(s) {
+    if (!(this.speed)) {
+      this.speed=0;
+    }
+    this.speed=this.speed+s;
+    this.speedToPace();
+  }
+
+  public addMins(m) {
+    if (!(this.mins)) {
+      this.mins=0;
+    }
+    this.setMins(this.mins+m);
+  }
+
+  public addSecs(m) {
+    if (!(this.secs)) {
+      this.secs=0;
+    }
+    this.setSecs(this.secs+m);
   }
 
 }

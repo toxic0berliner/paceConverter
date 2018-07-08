@@ -9,3 +9,13 @@
   max-width:30em;
   margin:auto;
 }
+
+.controls-card {
+  max-width:30em;
+  margin:auto;
+  padding: 2px;
+}
+
+mat-grid-tile{
+  margin:2px;
+}

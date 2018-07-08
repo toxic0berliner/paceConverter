@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { MatToolbarModule, MatCardModule, MatInputModule } from '@angular/material';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+//import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatButtonModule} from '@angular/material/button';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 /*import {
   MatAutocompleteModule,
@@ -65,7 +68,9 @@ import { environment } from '../environments/environment';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatProgressSpinnerModule,
+    //MatProgressSpinnerModule,
+    MatButtonModule,
+    MatGridListModule,
     environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [],
