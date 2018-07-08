@@ -24,7 +24,7 @@ export class PaceCardComponent implements OnInit {
   }
 
   public setMins(m){
-    this.mins=m;
+    this.mins=parseInt(m);
     this.paceToSpeed();
   }
 
@@ -33,7 +33,7 @@ export class PaceCardComponent implements OnInit {
   }
 
   public setSecs(s){
-    this.secs=s;
+    this.secs=parseInt(s);
     // if we have no minutes, set them to 0
     if (!(this.mins)) {
       this.mins=0;
@@ -64,7 +64,7 @@ export class PaceCardComponent implements OnInit {
   }
 
   public setSpeed(s){
-    this.speed=s;
+    this.speed=parseFloat(s);
     this.speedToPace();
   }
 
