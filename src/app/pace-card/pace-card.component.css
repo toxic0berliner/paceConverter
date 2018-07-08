@@ -22,4 +22,5 @@ mat-grid-tile{
 .plus-minus-button {
   margin:3px;
   height:3.81rem;
+  font-weight:bold;
 }
