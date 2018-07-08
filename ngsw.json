@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "index": "/index.html",
+  "index": "https://paceonverter.io/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -14,28 +14,28 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/images/icons/icon-128x128.png",
-        "/assets/images/icons/icon-144x144.png",
-        "/assets/images/icons/icon-152x152.png",
-        "/assets/images/icons/icon-192x192.png",
-        "/assets/images/icons/icon-384x384.png",
-        "/assets/images/icons/icon-512x512.png",
-        "/assets/images/icons/icon-72x72.png",
-        "/assets/images/icons/icon-96x96.png"
+        "https://paceonverter.io/assets/images/icons/icon-128x128.png",
+        "https://paceonverter.io/assets/images/icons/icon-144x144.png",
+        "https://paceonverter.io/assets/images/icons/icon-152x152.png",
+        "https://paceonverter.io/assets/images/icons/icon-192x192.png",
+        "https://paceonverter.io/assets/images/icons/icon-384x384.png",
+        "https://paceonverter.io/assets/images/icons/icon-512x512.png",
+        "https://paceonverter.io/assets/images/icons/icon-72x72.png",
+        "https://paceonverter.io/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
-    "/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613"
+    "https://paceonverter.io/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "https://paceonverter.io/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
+    "https://paceonverter.io/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613"
   },
   "navigationUrls": [
     {
