@@ -1,14 +1,14 @@
 {
   "configVersion": 1,
-  "index": "paceConverter/pwPaceConverter/index.html",
+  "index": "/paceConverter/pwPaceConverter/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "paceConverter/pwPaceConverter/favicon.ico",
-        "paceConverter/pwPaceConverter/index.html"
+        "/paceConverter/pwPaceConverter/favicon.ico",
+        "/paceConverter/pwPaceConverter/index.html"
       ],
       "patterns": []
     },
@@ -17,30 +17,30 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png",
-        "paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png"
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png",
+        "/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
-    "paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613",
-    "paceConverter/pwPaceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
-    "paceConverter/pwPaceConverter/index.html": "cbfb735a00143b10b69316d1eb022001dc26528c"
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-128x128.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-144x144.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-152x152.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-192x192.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-384x384.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-512x512.png": "e663dbf393f551d7affc081e839b03171b901208",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-72x72.png": "7e15d247ad4415bf8db7d4c80ce63b5451d79f45",
+    "/paceConverter/pwPaceConverter/assets/images/icons/icon-96x96.png": "b724ee121e2f295ba8d5c2eac740826274f0e613",
+    "/paceConverter/pwPaceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
+    "/paceConverter/pwPaceConverter/index.html": "80b51bced669b4a5e2f7c191cbc2be1f3a51a80f"
   },
   "navigationUrls": [
     {
