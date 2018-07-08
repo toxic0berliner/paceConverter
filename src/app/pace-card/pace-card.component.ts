@@ -20,6 +20,7 @@ export class PaceCardComponent implements OnInit {
 
   public setMinsEvent(event){
     this.setMins(parseInt(event.target.value));
+    document.getElementById("secs").focus();
   }
 
   public setMins(m){
