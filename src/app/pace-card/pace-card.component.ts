@@ -23,7 +23,7 @@ export class PaceCardComponent implements OnInit {
     document.getElementById("secs").focus();
     //document.getElementById("secs").setSelectionRange(0, document.getElementById("secs").value.length)
     //ugly hack to select all content after focusing the secs field :
-    setTimeout(function () { document.getElementById("secs").select(); }, 10);
+    setTimeout(function () { var temp=document.getElementById("secs") as HTMLInputElement; temp.select(); }, 10);
   }
 
   public setMins(m){
