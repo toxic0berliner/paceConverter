@@ -5,10 +5,9 @@
     "installMode": "prefetch",
     "resources": {
       "files": [
-        "src/favicon.ico",
-        "src/index.html"
-      ],
-      "versionedFiles": [
+        "/",
+        "/favicon.ico",
+        "/index.html",
         "/*.bundle.css",
         "/*.bundle.js",
         "/*.chunk.js"
