@@ -13,7 +13,8 @@
         "/*.chunk.js",
         "/main.*.js",
         "/runtime.*.js",
-        "/polyfills.*.js"
+        "/polyfills.*.js",
+        "/styles.*.css"
       ]
     }
   }, {
