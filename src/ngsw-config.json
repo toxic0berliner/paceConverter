@@ -10,7 +10,10 @@
         "/index.html",
         "/*.bundle.css",
         "/*.bundle.js",
-        "/*.chunk.js"
+        "/*.chunk.js",
+        "/main.*.js",
+        "/runtime.*.js",
+        "/polyfills.*.js"
       ]
     }
   }, {
