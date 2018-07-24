@@ -13,7 +13,7 @@
 <!--<mat-card class="controls-card no-select" (md-swipe-right)="onSwipeRight($event, $target)">-->
 <mat-card class="controls-card no-select" >
   <mat-card-header (click)="toggleControls()">
-    <span  [ngClass]="{'uparrow':!controlsCollapsed, 'downarrow':controlsCollapsed}">&gt;</span>
+    <span class="up-down-arrow"><fa name="angle-down" [ngClass]="{'hidden':!controlsCollapsed}"></fa><fa name="angle-up" [ngClass]="{'hidden':controlsCollapsed}"></fa></span>
   </mat-card-header>
   <mat-card-content [@slideInOut]="animationState">
     <mat-grid-list cols="30" rowHeight="1rem" gutterSize="0.1rem">

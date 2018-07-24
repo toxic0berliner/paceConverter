@@ -3,6 +3,7 @@ import {trigger,state,style,transition,animate,keyframes} from "@angular/animati
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { SlideInOutAnimation } from "./animations";
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @Component({
   selector: 'app-pace-card',

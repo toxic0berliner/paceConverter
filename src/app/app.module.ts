@@ -55,6 +55,8 @@ import { PaceCardComponent } from './pace-card/pace-card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -71,6 +73,7 @@ import { environment } from '../environments/environment';
     //MatProgressSpinnerModule,
     MatButtonModule,
     MatGridListModule,
+    AngularFontAwesomeModule,
     environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [],
