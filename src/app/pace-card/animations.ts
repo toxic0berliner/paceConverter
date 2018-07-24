@@ -5,7 +5,7 @@ export const SlideInOutAnimation = [
     state(
       "in",
       style({
-        "max-height": "9rem",
+        "max-height": "10rem",
         opacity: "1",
         visibility: "visible"
       })
@@ -45,7 +45,7 @@ export const SlideInOutAnimation = [
         animate(
           "200ms ease-in-out",
           style({
-            "max-height": "9rem"
+            "max-height": "10rem"
           })
         )
       ])
