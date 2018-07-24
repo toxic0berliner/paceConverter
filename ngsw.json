@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://paceonverter.io/index.html",
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://paceonverter.io/favicon.ico",
-        "https://paceonverter.io/index.html",
-        "https://paceonverter.io/main.3b6043abe1a51932f67f.js",
-        "https://paceonverter.io/polyfills.2f4a59095805af02bd79.js",
-        "https://paceonverter.io/runtime.a66f828dca56eeb90e02.js",
-        "https://paceonverter.io/styles.c786f7f7c5b550f6642e.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.a8d7eddc16c7e4541579.js",
+        "/polyfills.2f4a59095805af02bd79.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.c786f7f7c5b550f6642e.css"
       ],
       "patterns": []
     },
@@ -21,34 +21,34 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://paceonverter.io/assets/images/icons/icon-128x128.png",
-        "https://paceonverter.io/assets/images/icons/icon-144x144.png",
-        "https://paceonverter.io/assets/images/icons/icon-152x152.png",
-        "https://paceonverter.io/assets/images/icons/icon-192x192.png",
-        "https://paceonverter.io/assets/images/icons/icon-384x384.png",
-        "https://paceonverter.io/assets/images/icons/icon-512x512.png",
-        "https://paceonverter.io/assets/images/icons/icon-72x72.png",
-        "https://paceonverter.io/assets/images/icons/icon-96x96.png"
+        "/assets/images/icons/icon-128x128.png",
+        "/assets/images/icons/icon-144x144.png",
+        "/assets/images/icons/icon-152x152.png",
+        "/assets/images/icons/icon-192x192.png",
+        "/assets/images/icons/icon-384x384.png",
+        "/assets/images/icons/icon-512x512.png",
+        "/assets/images/icons/icon-72x72.png",
+        "/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://paceonverter.io/assets/images/icons/icon-128x128.png": "6b3f40a6d4ac62c1ae2912ae6a10c986ff4e2a6e",
-    "https://paceonverter.io/assets/images/icons/icon-144x144.png": "0b75fb8ba81e2913ed27efdbde7cc4d56288fc7d",
-    "https://paceonverter.io/assets/images/icons/icon-152x152.png": "a6c8fca68092407416a492ff09f98bf342cc74f5",
-    "https://paceonverter.io/assets/images/icons/icon-192x192.png": "429e01a5cd6d5a77834c84ec3e17a83dba0ad89d",
-    "https://paceonverter.io/assets/images/icons/icon-384x384.png": "1d1c6ecbee047027990db31ef3a6ca278b71d552",
-    "https://paceonverter.io/assets/images/icons/icon-512x512.png": "edd31a1db01163cc6133ba2d9da1ce8ffeeb8ce5",
-    "https://paceonverter.io/assets/images/icons/icon-72x72.png": "935d6a4873e8c642a591474da5c1300e2f12ec1e",
-    "https://paceonverter.io/assets/images/icons/icon-96x96.png": "50de7728537794aaa0e54d5b2844665630c373fd",
-    "https://paceonverter.io/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
-    "https://paceonverter.io/index.html": "ecb29d4855bce3101f297ebc21bd15f46116661e",
-    "https://paceonverter.io/main.3b6043abe1a51932f67f.js": "b1087289658f05422e2a18c0fbe57365c5b02959",
-    "https://paceonverter.io/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
-    "https://paceonverter.io/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "https://paceonverter.io/styles.c786f7f7c5b550f6642e.css": "7afb3724a0ec522e684ae944f9a51061057daa96"
+    "/assets/images/icons/icon-128x128.png": "6b3f40a6d4ac62c1ae2912ae6a10c986ff4e2a6e",
+    "/assets/images/icons/icon-144x144.png": "0b75fb8ba81e2913ed27efdbde7cc4d56288fc7d",
+    "/assets/images/icons/icon-152x152.png": "a6c8fca68092407416a492ff09f98bf342cc74f5",
+    "/assets/images/icons/icon-192x192.png": "429e01a5cd6d5a77834c84ec3e17a83dba0ad89d",
+    "/assets/images/icons/icon-384x384.png": "1d1c6ecbee047027990db31ef3a6ca278b71d552",
+    "/assets/images/icons/icon-512x512.png": "edd31a1db01163cc6133ba2d9da1ce8ffeeb8ce5",
+    "/assets/images/icons/icon-72x72.png": "935d6a4873e8c642a591474da5c1300e2f12ec1e",
+    "/assets/images/icons/icon-96x96.png": "50de7728537794aaa0e54d5b2844665630c373fd",
+    "/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
+    "/index.html": "215e007f4f8166f8a8e4e9c2220b58afbec4a6ae",
+    "/main.a8d7eddc16c7e4541579.js": "98baf6da7e490c6b5aef2d25b11d0d5d331ec738",
+    "/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.c786f7f7c5b550f6642e.css": "7afb3724a0ec522e684ae944f9a51061057daa96"
   },
   "navigationUrls": [
     {
