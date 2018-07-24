@@ -11,7 +11,7 @@
   </mat-form-field>
 </mat-card>
 <!--<mat-card class="controls-card no-select" (md-swipe-right)="onSwipeRight($event, $target)">-->
-<mat-card class="controls-card no-select" >
+<mat-card class="controls-card no-select" [ngClass]="{'collapsed':controlsCollapsed}" >
   <mat-card-header (click)="toggleControls()">
     <span class="up-down-arrow"><fa name="angle-down" [ngClass]="{'hidden':!controlsCollapsed}"></fa><fa name="angle-up" [ngClass]="{'hidden':controlsCollapsed}"></fa></span>
   </mat-card-header>

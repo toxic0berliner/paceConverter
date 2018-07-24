@@ -8,11 +8,20 @@
 .converter-card {
   max-width:30em;
   margin:auto;
+  padding-bottom: 0px;
+  padding-top:2px;
+  margin-top:5px;
 }
 
 .controls-card {
   max-width:30em;
   margin:auto;
+  padding-top: 0px;
+  margin-top:4px;
+}
+
+.controls-card.collapsed {
+  padding-bottom: 0px;
 }
 
 mat-grid-tile{
@@ -56,8 +65,8 @@ mat-card-content {
 mat-card-header {
   width: auto;
   height: 20px;
-  margin-top: -20px !important;
-  padding-top: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 /*.uparrow {
