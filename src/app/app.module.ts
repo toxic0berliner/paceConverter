@@ -9,7 +9,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
+import {trigger,transition,style,animate,state} from "@angular/animations";
 
 /*import {
   MatAutocompleteModule,

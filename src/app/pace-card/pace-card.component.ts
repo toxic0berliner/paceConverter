@@ -1,9 +1,14 @@
 import { Component, OnInit, Input/*,OnChanges, SimpleChange*/ } from '@angular/core';
+import {trigger,state,style,transition,animate,keyframes} from "@angular/animations";
+import { BrowserModule } from "@angular/platform-browser";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { SlideInOutAnimation } from "./animations";
 
 @Component({
   selector: 'app-pace-card',
   templateUrl: './pace-card.component.html',
-  styleUrls: ['./pace-card.component.css']
+  styleUrls: ['./pace-card.component.css'],
+  animations: [SlideInOutAnimation]
 })
 export class PaceCardComponent implements OnInit {
 
@@ -11,6 +16,8 @@ export class PaceCardComponent implements OnInit {
   @Input() secs: number;
   @Input() speed: number;
   @Input() unit: string;
+  public controlsCollapsed: boolean;
+  animationState = "in";
 
   constructor() { }
 
@@ -18,13 +25,13 @@ export class PaceCardComponent implements OnInit {
     this.unit="kmh";
   }
 
-  onSwipeRight = function(ev, target) {
+  /*onSwipeRight = function(ev, target) {
       alert('You swiped right!!');
 
-      $log.log('Event Target: ', ev.target);
-      $log.log('Event Current Target: ', ev.currentTarget);
-      $log.log('Original Current Target: ', target.current);
-    };
+      console.log('Event Target: ', ev.target);
+      console.log('Event Current Target: ', ev.currentTarget);
+      console.log('Original Current Target: ', target.current);
+    };*/
 
   public setMinsEvent(event){
     this.setMins(parseInt(event.target.value));
@@ -140,6 +147,11 @@ export class PaceCardComponent implements OnInit {
       this.secs=0;
     }
     this.setSecs(this.secs+m);
+  }
+
+  public toggleControls() {
+    this.controlsCollapsed = this.controlsCollapsed ? false : true;
+    this.animationState = this.animationState === "out" ? "in" : "out";
   }
 
 }

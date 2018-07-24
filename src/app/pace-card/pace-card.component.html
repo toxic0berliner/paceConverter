@@ -10,13 +10,12 @@
     <input matInput id="speed" type="number" alt="Speed" [value]="speed" (input)="setSpeedEvent($event)" placeholder="speed (km/h)" (click)="$event.target.select()"/>
   </mat-form-field>
 </mat-card>
-<mat-card class="controls-card no-select" (md-swipe-right)="onSwipeRight($event, $target)">
-  <mat-card-header (md-swipe-right)="onSwipeRight($event, $target)">
-    <mat-card-title (md-swipe-right)="onSwipeRight($event, $target)">
-      Controls
-    </mat-card-title>
+<!--<mat-card class="controls-card no-select" (md-swipe-right)="onSwipeRight($event, $target)">-->
+<mat-card class="controls-card no-select" >
+  <mat-card-header (click)="toggleControls()">
+    <span  [ngClass]="{'uparrow':!controlsCollapsed, 'downarrow':controlsCollapsed}">&gt;</span>
   </mat-card-header>
-  <mat-card-content>
+  <mat-card-content [@slideInOut]="animationState">
     <mat-grid-list cols="30" rowHeight="1rem" gutterSize="0rem">
       <!-- Line 1 : headers -->
       <mat-grid-tile colspan="6" rowspan="1" style.background="primary">
