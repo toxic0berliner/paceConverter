@@ -18,6 +18,14 @@ export class PaceCardComponent implements OnInit {
     this.unit="kmh";
   }
 
+  onSwipeRight = function(ev, target) {
+      alert('You swiped right!!');
+
+      $log.log('Event Target: ', ev.target);
+      $log.log('Event Current Target: ', ev.currentTarget);
+      $log.log('Original Current Target: ', target.current);
+    };
+
   public setMinsEvent(event){
     this.setMins(parseInt(event.target.value));
     if (event.target.value > 1 ) {

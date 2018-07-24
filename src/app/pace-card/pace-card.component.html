@@ -10,57 +10,64 @@
     <input matInput id="speed" type="number" alt="Speed" [value]="speed" (input)="setSpeedEvent($event)" placeholder="speed (km/h)" (click)="$event.target.select()"/>
   </mat-form-field>
 </mat-card>
-<mat-card class="controls-card">
-  <mat-grid-list cols="30" rowHeight="1rem" gutterSize="0rem">
-    <!-- Line 1 : headers -->
-    <mat-grid-tile colspan="6" rowspan="1" style.background="primary">
-      1 km/h
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="1" style.background="background">
-      0.1km/h
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="1" style.background="background">
-      1 min
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="1" style.background="background">
-      10 secs
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="1" style.background="background">
-      1 sec
-    </mat-grid-tile>
+<mat-card class="controls-card no-select" (md-swipe-right)="onSwipeRight($event, $target)">
+  <mat-card-header (md-swipe-right)="onSwipeRight($event, $target)">
+    <mat-card-title (md-swipe-right)="onSwipeRight($event, $target)">
+      Controls
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-grid-list cols="30" rowHeight="1rem" gutterSize="0rem">
+      <!-- Line 1 : headers -->
+      <mat-grid-tile colspan="6" rowspan="1" style.background="primary">
+        1 km/h
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="1" style.background="background">
+        0.1km/h
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="1" style.background="background">
+        1 min
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="1" style.background="background">
+        10 secs
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="1" style.background="background">
+        1 sec
+      </mat-grid-tile>
 
-    <!-- Line 2 : pluses -->
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSpeed(1)">+</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSpeed(0.1)">+</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addMins(1)">+</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSecs(10)">+</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSecs(1)">+</button>
-    </mat-grid-tile>
+      <!-- Line 2 : pluses -->
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSpeed(1)">+</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSpeed(0.1)">+</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addMins(1)">+</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSecs(10)">+</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSecs(1)">+</button>
+      </mat-grid-tile>
 
-    <!-- Line 3 : minuses  -->
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSpeed(-1)">-</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSpeed(-0.1)">-</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addMins(-1)">-</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSecs(-10)">-</button>
-    </mat-grid-tile>
-    <mat-grid-tile colspan="6" rowspan="4" style.background="background">
-      <button mat-raised-button class="plus-minus-button" (click)="addSecs(-1)">-</button>
-    </mat-grid-tile>
-  </mat-grid-list>
+      <!-- Line 3 : minuses  -->
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSpeed(-1)">-</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSpeed(-0.1)">-</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addMins(-1)">-</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSecs(-10)">-</button>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="6" rowspan="4" style.background="background">
+        <button mat-raised-button class="plus-minus-button" (click)="addSecs(-1)">-</button>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card-content>
 </mat-card>
