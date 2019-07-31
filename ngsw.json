@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "C:/Program Files/Git/paceConverter/index.html",
+  "index": "/paceConverter/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/paceConverter/favicon.ico",
-        "C:/Program Files/Git/paceConverter/index.html",
-        "C:/Program Files/Git/paceConverter/main.6be7b5be3ad0f6c35529.js",
-        "C:/Program Files/Git/paceConverter/polyfills.26240808ab51043ed9ac.js",
-        "C:/Program Files/Git/paceConverter/runtime.a66f828dca56eeb90e02.js",
-        "C:/Program Files/Git/paceConverter/styles.7d25b6571fe721bb3e29.css"
+        "/paceConverter/favicon.ico",
+        "/paceConverter/index.html",
+        "/paceConverter/main.6be7b5be3ad0f6c35529.js",
+        "/paceConverter/polyfills.26240808ab51043ed9ac.js",
+        "/paceConverter/runtime.6bfaa4f881286039d649.js",
+        "/paceConverter/styles.7d25b6571fe721bb3e29.css"
       ],
       "patterns": []
     },
@@ -21,34 +21,34 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-128x128.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-144x144.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-152x152.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-192x192.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-384x384.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-512x512.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-72x72.png",
-        "C:/Program Files/Git/paceConverter/assets/images/icons/icon-96x96.png"
+        "/paceConverter/assets/images/icons/icon-128x128.png",
+        "/paceConverter/assets/images/icons/icon-144x144.png",
+        "/paceConverter/assets/images/icons/icon-152x152.png",
+        "/paceConverter/assets/images/icons/icon-192x192.png",
+        "/paceConverter/assets/images/icons/icon-384x384.png",
+        "/paceConverter/assets/images/icons/icon-512x512.png",
+        "/paceConverter/assets/images/icons/icon-72x72.png",
+        "/paceConverter/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-128x128.png": "6b3f40a6d4ac62c1ae2912ae6a10c986ff4e2a6e",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-144x144.png": "0b75fb8ba81e2913ed27efdbde7cc4d56288fc7d",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-152x152.png": "a6c8fca68092407416a492ff09f98bf342cc74f5",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-192x192.png": "429e01a5cd6d5a77834c84ec3e17a83dba0ad89d",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-384x384.png": "1d1c6ecbee047027990db31ef3a6ca278b71d552",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-512x512.png": "edd31a1db01163cc6133ba2d9da1ce8ffeeb8ce5",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-72x72.png": "935d6a4873e8c642a591474da5c1300e2f12ec1e",
-    "C:/Program Files/Git/paceConverter/assets/images/icons/icon-96x96.png": "50de7728537794aaa0e54d5b2844665630c373fd",
-    "C:/Program Files/Git/paceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
-    "C:/Program Files/Git/paceConverter/index.html": "51194ae0854bf92a9905c53a9f62d2ba46a42bf9",
-    "C:/Program Files/Git/paceConverter/main.6be7b5be3ad0f6c35529.js": "fe0cc508993937c8b09fee1c1c7c7fb0f9d318e2",
-    "C:/Program Files/Git/paceConverter/polyfills.26240808ab51043ed9ac.js": "c3c1d983964ee2c2f0f5b67f59bb610fd7467b5f",
-    "C:/Program Files/Git/paceConverter/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "C:/Program Files/Git/paceConverter/styles.7d25b6571fe721bb3e29.css": "9b20491377d7f11ae821b6a6c9362ab8b67197e9"
+    "/paceConverter/assets/images/icons/icon-128x128.png": "6b3f40a6d4ac62c1ae2912ae6a10c986ff4e2a6e",
+    "/paceConverter/assets/images/icons/icon-144x144.png": "0b75fb8ba81e2913ed27efdbde7cc4d56288fc7d",
+    "/paceConverter/assets/images/icons/icon-152x152.png": "a6c8fca68092407416a492ff09f98bf342cc74f5",
+    "/paceConverter/assets/images/icons/icon-192x192.png": "429e01a5cd6d5a77834c84ec3e17a83dba0ad89d",
+    "/paceConverter/assets/images/icons/icon-384x384.png": "1d1c6ecbee047027990db31ef3a6ca278b71d552",
+    "/paceConverter/assets/images/icons/icon-512x512.png": "edd31a1db01163cc6133ba2d9da1ce8ffeeb8ce5",
+    "/paceConverter/assets/images/icons/icon-72x72.png": "935d6a4873e8c642a591474da5c1300e2f12ec1e",
+    "/paceConverter/assets/images/icons/icon-96x96.png": "50de7728537794aaa0e54d5b2844665630c373fd",
+    "/paceConverter/favicon.ico": "84abd1f31adcb52cf90c8db4e8d1e8677f314248",
+    "/paceConverter/index.html": "12cf274f4d7315f31a7d68f77ca6c1e96ce0fb63",
+    "/paceConverter/main.6be7b5be3ad0f6c35529.js": "fe0cc508993937c8b09fee1c1c7c7fb0f9d318e2",
+    "/paceConverter/polyfills.26240808ab51043ed9ac.js": "c3c1d983964ee2c2f0f5b67f59bb610fd7467b5f",
+    "/paceConverter/runtime.6bfaa4f881286039d649.js": "e4029795d752c19ae14c3bc84a10332370c76fcd",
+    "/paceConverter/styles.7d25b6571fe721bb3e29.css": "9b20491377d7f11ae821b6a6c9362ab8b67197e9"
   },
   "navigationUrls": [
     {
