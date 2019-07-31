@@ -9,8 +9,7 @@ Sorry for you if you'd like it to handle mph instead of kmh, when are you finall
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 # Demo
-A [live version](https://paceonverter.io) is available curtesy of github-pages.
-(Sometime I fail to setup the custom domain, so you could try https://toxic0berliner.github.io/paceConverter/ or maybe https://paceconverter.io if I got around to purchasing the correct domain...)
+A [live version](https://toxic0berliner.github.io/paceConverter/) is available curtesy of github-pages.
 
 ## Development server
 
