@@ -4,12 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build",,
+  "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
 	"deploy": "ng build --prod && npx angular-cli-ghpages",
-  "build:ci": "npm run clean && npm run build:prod"
+  "build:ci": "npm run build:prod"
   },
   "private": true,
   "dependencies": {
