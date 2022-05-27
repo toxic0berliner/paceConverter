@@ -39,7 +39,7 @@
     "@angular-devkit/build-angular": "~0.13.10",
     "@angular/cli": "~6.0.8",
     "@angular/compiler-cli": "^6.1.10",
-    "@angular/language-service": "^6.1.10",
+    "@angular/language-service": "^13.3.10",
     "@types/jasmine": "^4.0.3",
     "@types/jasminewd2": "^2.0.10",
     "@types/node": "~8.9.4",
