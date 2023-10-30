@@ -24,7 +24,7 @@
     "@angular/material": "^6.3.2",
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
-    "@angular/pwa": "^14.2.2",
+    "@angular/pwa": "^16.2.8",
     "@angular/router": "^6.0.3",
     "@angular/service-worker": "^6.0.7",
     "angular-font-awesome": "^3.1.2",
